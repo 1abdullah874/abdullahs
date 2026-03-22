@@ -1,8 +1,8 @@
 const skillGroups = [
   { title: "LANGUAGES", items: ["Python", "C", "Bash/Shell", "SQL"] },
   { title: "SECURITY TOOLS", items: ["Burp Suite", "Metasploit", "tcpdump", "Wireshark"] },
-  { title: "DEV ENVIRONMENT", items: ["VMware", "VirtualBox", "Linux"] },
-  { title: "CONCEPTS", items: ["Biometric Authentication", "Computer Vision", "Password Hashing", "Network Security", "Multi-Factor Auth", "Penetration Testing"] },
+  { title: "DEV ENVIRONMENT", items: ["VMware", "VirtualBox", "Linux", "VS Code"] },
+  { title: "CONCEPTS", items: ["Computer Vision", "Password Hashing", "Network Security", "Multi-Factor Auth", "Penetration Testing"] },
 ];
 
 const Skills = () => (

@@ -1,3 +1,5 @@
+import { Github, Linkedin } from "lucide-react";
+
 const Hero = () => (
   <section className="min-h-screen flex items-center justify-center px-6 relative">
     <div className="max-w-4xl">
@@ -21,6 +23,24 @@ const Hero = () => (
           className="px-6 py-3 border border-primary text-primary font-mono text-sm rounded hover:bg-primary/10 transition-all"
         >
           get in touch
+        </a>
+      </div>
+      <div className="flex gap-4 mt-6">
+        <a
+          href="https://github.com/1abdullah874"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-muted-foreground hover:text-primary transition-colors"
+        >
+          <Github className="w-5 h-5" />
+        </a>
+        <a
+          href="https://www.linkedin.com/in/abdullah-ali-saleem-5b8bab298/"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="text-muted-foreground hover:text-primary transition-colors"
+        >
+          <Linkedin className="w-5 h-5" />
         </a>
       </div>
     </div>
