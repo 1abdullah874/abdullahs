@@ -1,4 +1,4 @@
-import { Mail, Github } from "lucide-react";
+import { Mail, Github, Linkedin } from "lucide-react";
 
 const Contact = () => (
   <section id="contact" className="py-24 px-6">
@@ -28,6 +28,16 @@ const Contact = () => (
             </div>
           </a>
           <a
+            href="mailto:Abdullah.alisaleem@metropolia.fi"
+            className="flex items-center gap-4 p-5 rounded-lg bg-card border border-border hover:border-primary/50 transition-all"
+          >
+            <Mail className="text-primary w-5 h-5 shrink-0" />
+            <div>
+              <p className="text-xs text-muted-foreground font-mono">email</p>
+              <p className="text-foreground text-sm">Abdullah.alisaleem@metropolia.fi</p>
+            </div>
+          </a>
+          <a
             href="https://github.com/1abdullah874"
             target="_blank"
             rel="noopener noreferrer"
@@ -37,6 +47,18 @@ const Contact = () => (
             <div>
               <p className="text-xs text-muted-foreground font-mono">github</p>
               <p className="text-foreground text-sm">github.com/1abdullah874</p>
+            </div>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/abdullah-ali-saleem-5b8bab298/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-4 p-5 rounded-lg bg-card border border-border hover:border-primary/50 transition-all"
+          >
+            <Linkedin className="text-primary w-5 h-5 shrink-0" />
+            <div>
+              <p className="text-xs text-muted-foreground font-mono">linkedin</p>
+              <p className="text-foreground text-sm">Abdullah Ali Saleem</p>
             </div>
           </a>
         </div>

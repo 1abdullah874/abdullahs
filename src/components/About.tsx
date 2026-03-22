@@ -5,13 +5,13 @@ const About = () => (
       <div className="grid md:grid-cols-2 gap-12">
         <div className="space-y-4 reveal">
           <p className="text-foreground leading-relaxed">
-            I build security tools that make technology harder to break into. From face-based authentication systems to real-time computer vision — if it lives at the intersection of code and security, I'm building it.
+            I build security-focused tools that make systems harder to break. My work spans biometric authentication, computer vision, and offline-first technologies.
           </p>
           <p className="text-muted-foreground leading-relaxed">
-            My approach combines offensive security thinking with practical engineering. I believe the best way to defend systems is to understand how they break — and then build something better.
+            With an offensive security mindset, I design and engineer solutions by understanding how systems fail—then improving them.
           </p>
           <p className="text-muted-foreground leading-relaxed">
-            Currently focused on biometric authentication, computer vision, and building tools that work offline-first — because security shouldn't depend on a cloud connection.
+            Focused on practical, real-world security, I create tools that stay reliable even without cloud dependency.
           </p>
         </div>
         <div className="reveal">
@@ -29,7 +29,7 @@ const About = () => (
               {"  "}<span className="text-primary">"name"</span>: <span className="text-foreground">"Abdullah Ali Saleem"</span>,{"\n"}
               {"  "}<span className="text-primary">"role"</span>: <span className="text-foreground">"Cybersecurity Engineer"</span>,{"\n"}
               {"  "}<span className="text-primary">"focus"</span>: <span className="text-foreground">"Security Tools & CV"</span>,{"\n"}
-              {"  "}<span className="text-primary">"location"</span>: <span className="text-foreground">"Pakistan"</span>,{"\n"}
+              {"  "}<span className="text-primary">"location"</span>: <span className="text-foreground">"Helsinki, Finland"</span>,{"\n"}
               {"  "}<span className="text-primary">"status"</span>: <span className="text-foreground">"Building & Breaking"</span>,{"\n"}
               {"  "}<span className="text-primary">"offline_first"</span>: <span className="text-primary">true</span>{"\n"}
               <span className="text-muted-foreground">{"}"}</span>
