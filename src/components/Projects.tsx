@@ -13,6 +13,13 @@ const projects = [
     tags: ["Python", "MediaPipe", "OpenCV", "PyQt5", "Computer Vision"],
     link: "https://github.com/1abdullah874/Sign_Language",
   },
+  {
+    icon: "🛡️",
+    title: "PhishGuard",
+    desc: "A full-stack AI-powered web app that detects phishing emails. Users input email content and get real-time predictions with confidence scores and risk levels (Safe, Suspicious, or Dangerous) powered by TF-IDF and XGBoost.",
+    tags: ["React", "FastAPI", "XGBoost", "Scikit-learn", "Vite", "Railway"],
+    link: "#",
+  },
 ];
 
 const Projects = () => (
