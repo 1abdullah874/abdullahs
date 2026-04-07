@@ -18,7 +18,7 @@ const projects = [
     title: "PhishGuard",
     desc: "A full-stack AI-powered web app that detects phishing emails. Users input email content and get real-time predictions with confidence scores and risk levels (Safe, Suspicious, or Dangerous) powered by TF-IDF and XGBoost.",
     tags: ["React", "FastAPI", "XGBoost", "Scikit-learn", "Vite", "Railway"],
-    link: "#",
+    link: "https://phishing-shield.vercel.app/",
   },
 ];
 
